@@ -3,7 +3,7 @@ Nhận biết biển báo giao thông bằng tập dữ liệu gtsrb
 
 ** Bước 1** Cài đặt thư viện
 
-'> python install -r requiments.txt'
+`> python install -r requiments.txt`
 
 ** Bước 2** Tải tệp data về
 
@@ -11,9 +11,9 @@ Nhận biết biển báo giao thông bằng tập dữ liệu gtsrb
 
 ** Bước 3** Chạy file traffic để nó huấn luyện data
 
-'> python traffic.py gtsrb model.h5'
+`> python traffic.py gtsrb model.h5`
 
 ** Bước 4** Chạy file traffic_predict để nó dự đoán biển báo giao thông
 
-'>python traffic_predict.py model.h5 data'
+`>python traffic_predict.py model.h5 data`
 
